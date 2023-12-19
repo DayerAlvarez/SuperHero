@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS superhero;
-CREATE  DATABASE superhero;
+CREATE DATABASE superhero;
 
 DROP TABLE IF EXISTS superhero.alignment;
 
@@ -9,7 +9,7 @@ CREATE TABLE superhero.alignment (
   CONSTRAINT pk_alignment PRIMARY KEY (id)
 );
 
-select * from superhero.alignment;
+
 
 INSERT INTO superhero.alignment (id, alignment) VALUES
 (1,'Good'),
@@ -151,8 +151,9 @@ INSERT INTO superhero.publisher (id, publisher_name) VALUES
 (23,'Titan Books'),
 (24,'Universal Studios'),
 (25,'Wildstorm');
+-- ----------------------------------------
 
-
+-- ------------------------------------------
 DROP TABLE IF EXISTS superhero.race;
 
 CREATE TABLE superhero.race (
